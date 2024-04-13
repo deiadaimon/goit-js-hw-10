@@ -32,8 +32,9 @@ const options = {
         if (selectedDates[0] <= Date.now()) {
             button.disabled = true;
             iziToast.error({
+                title: 'Error!',
                 message: 'Please choose a date in the future',
-                position: 'center',
+                position: 'topRight',
             });
         } else {
             button.disabled = false;

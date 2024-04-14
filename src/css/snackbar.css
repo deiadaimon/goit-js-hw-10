@@ -1,0 +1,82 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  margin-top: 36px;
+  margin-left: 156px;
+}
+
+input {
+  display: flex;
+  padding: 0;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 342px;
+  height: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input:hover {
+  border-color: #000000;
+}
+
+input:active,
+input:focus-visible {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+  width: 342px;
+  height: 62px;
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+fieldset label {
+  display: flex;
+  gap: 8px;
+  height: 32px;
+}
+
+fieldset input {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #757575;
+  border-radius: 14px;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+button:hover {
+  background: #6c8cff;
+}
